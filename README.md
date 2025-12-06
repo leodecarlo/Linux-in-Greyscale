@@ -12,7 +12,7 @@ A simple script to toggle between greyscale and normal color modes on all connec
 ## Installation
 
 ### 1. Install libvibrant
-Choose **one** of these methods:
+Choose one of these methods:
 
 #### Option A: Native Installation
 ```bash
@@ -33,6 +33,7 @@ flatpak install flathub io.github.libvibrant.vibrantLinux
 
 ### 2. Download the script
 ```bash
+# Make a personal bin folder where you can store custom scripts
 mkdir -p ~/.local/bin
 wget https://raw.githubusercontent.com/leodecarlo/Linux-in-Greyscale/main/greyscale-all.sh -O ~/.local/bin/greyscale-all.sh
 ```
@@ -44,7 +45,7 @@ chmod +x ~/.local/bin/greyscale-all.sh
 
 ## Usage
 
-- Run ```greyscale-all.sh`` in the terminal, with just ```greyscale-all``` to toggle between greyscale and normal color
+- Run ```greyscale-all.sh`` in the terminal, with just *greyscale-all* to toggle between greyscale and normal color
 - The script will:
     - Detect your display configuration
     - Check current saturation state
